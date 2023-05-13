@@ -27,6 +27,6 @@ In order to find out the alternative dishes of the target dish, we cluster the 3
 
 ## Recommadation
 By sorting the dishes found based on similarity according to the ecological score, we can get those dishes that are similar to the original dishes and have high ecological scores.
-![ecoscore](https://github.com/Weizhe-JIA/5.Suggestion-of-alternative-dishes/blob/main/imgs/ecoscore.png)
+<br>![ecoscore](https://github.com/Weizhe-JIA/5.Suggestion-of-alternative-dishes/blob/main/imgs/ecoscore.png)
 <br>(b) sort the similar dishes based on the ecoscore
 
