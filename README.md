@@ -17,11 +17,16 @@ Then, we found another dataset that recorded the energy, fat, sugar, fiber, prot
 
 Then, we calculated the ecoscore for each dish.
 
-Finally, we got a data set with 3000 dishes and values for 8 variables: energy, fat, sugar, fiber, protein, salt, nutrition score and ecoscore.
+Finally, we got a [data set](https://github.com/Weizhe-JIA/5.Suggestion-of-alternative-dishes/blob/main/Recipe_ingredients_Variables.xls/) with 3000 dishes and values for 8 variables: energy, fat, sugar, fiber, protein, salt, nutrition score and ecoscore.
 
 ## Clustering
 In order to find out the alternative dishes of the target dish, we cluster the 3000 dishes in the dataset according to those 7 variables: energy, fat, sugar, fiber, protein, salt and nutrition score, in order to find the dishes similar to the target dish.
 
+![similarity](https://github.com/Weizhe-JIA/5.Suggestion-of-alternative-dishes/blob/main/imgs/similarity.png)
+<br>(a) exemple of picking 10 similar dishes for a given dish
+
 ## Recommadation
 By sorting the dishes found based on similarity according to the ecological score, we can get those dishes that are similar to the original dishes and have high ecological scores.
+![ecoscore](https://github.com/Weizhe-JIA/5.Suggestion-of-alternative-dishes/blob/main/imgs/ecoscore.png)
+<br>(b) sort the similar dishes based on the ecoscore
 
